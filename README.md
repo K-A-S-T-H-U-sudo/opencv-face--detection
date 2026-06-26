@@ -18,3 +18,24 @@ pip install -r requirements.txt
 
 ## Run
 python face_detection.py
+
+## System Architecture
+Webcam
+   │
+   ▼
+Capture Frame
+   │
+   ▼
+Convert to Grayscale
+   │
+   ▼
+Haar Cascade Classifier
+   │
+   ▼
+Detect Face
+   │
+   ▼
+Draw Bounding Box
+   │
+   ▼
+Display Output
